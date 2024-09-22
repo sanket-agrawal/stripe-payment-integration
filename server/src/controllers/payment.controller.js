@@ -9,6 +9,15 @@ export const createCheckoutController = async (req, res) => {
     }
 }
 
+async function fullFillCheckoutOrder(){
+    try {
+        
+    } catch (error) {
+        console.error(error);
+        throw error;
+    }
+}
+
 export const webHookController = async (req, res) => {
 try{
 
